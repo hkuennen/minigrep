@@ -28,3 +28,22 @@ _Minigrep_ is a command-line application that searches for a specific string wit
    ```bash
    cargo run -- "query" file.txt
    ```
+
+2. **Environment variable for case sensitivity**:
+   By setting the CASE_INSENSITIVE environment variable, users can enable case-insensitive searches.
+
+   Example:
+
+   ```bash
+       CASE_INSENSITIVE=1 cargo run -- "query" file.txt
+   ```
+
+3. **Output**: The program prints matching lines to the terminal, making it easy to identify relevant content in the file.
+
+This project showcases how to parse command-line arguments, read files, and handle errors in a clean and idiomatic way in Rust.
+
+### Customization Options:
+
+- Add support for regular expressions.
+- Improve performance with multithreading for larger files.
+- Expand functionality to handle multiple files simultaneously.
