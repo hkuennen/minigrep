@@ -26,7 +26,7 @@ _Minigrep_ is a command-line application that searches for a specific string wit
    Example:
 
    ```bash
-   cargo run -- "query" file.txt
+      cargo run -- "you" poem.txt
    ```
 
 2. **Environment variable for case sensitivity**:
@@ -35,7 +35,7 @@ _Minigrep_ is a command-line application that searches for a specific string wit
    Example:
 
    ```bash
-       CASE_INSENSITIVE=1 cargo run -- "query" file.txt
+      CASE_INSENSITIVE=1 cargo run -- "The" poem.txt
    ```
 
 3. **Output**: The program prints matching lines to the terminal, making it easy to identify relevant content in the file.
